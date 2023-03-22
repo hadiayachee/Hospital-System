@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #abc1d4;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    
+}
+
+
+#home{
+    width: 100%;
+    height: 100vh;
+    
+}
+
+.bigsection{
+    height: 88vh;
+    width: 100%;
+}
+
+.classone{
+    width: 100%;
+    height: 50%;
+}
+
+.title{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.table{
+    width: 100%;
+    height: 80%;
+}
+
+.classtwo{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Emailcard{
+    width: 90%;
+    height: 90%; 
+    background: linear-gradient(
+        248.8deg,
+        rgba(255, 247, 247, 0.6) -13.88%,
+        rgba(255, 247, 247, 0) 97.9%
+      );
+    border: 1px solid rgba(250, 237, 237, 0.6);
+    backdrop-filter: blur(0.5rem);
+    z-index: 3;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.email-title{
+    height: 10%;
+    width: 100%;
+    border-bottom: 2px solid white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.email-info{
+    width: 90%;
+    margin: auto;
+    height: 90%;
+}
+
+form{
+    /* background-color: red; */
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+form div{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#Su{
+    width: 80%;
+    margin: auto;
+    border: none;
+    outline: none;
+    height: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+#btns{
+    border: none;
+    outline: none;
+    width: 70%;
+    height: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.2s all ease-out;
+}
+
+#btns:hover{
+    background-color: rgb(6, 175, 175);
+    color: white;
+
+}
+
+.newtable{
+
+    /* background: linear-gradient(248.8deg,rgba(255, 247, 247, 0.6) -13.88%,rgba(255, 247, 247, 0) 97.9%); */
+/* 
+      border: 1px solid rgba(250, 237, 237, 0.6); */
+      backdrop-filter: blur(0.5rem);width:100%;
+
+}
+tr{
+
+    background-color: rgb(6, 175, 175);width:100%;
+}
+td{
+    text-align: center;
+    padding: 3px;
+    background-color: #abc1d4;
+    /* border-left: 1px solid #000; */
+    border-bottom: 1pt solid rgb(6, 175, 175);
+    
+}

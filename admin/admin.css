@@ -1,0 +1,113 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: rgb(6, 175, 175);
+}
+
+.admin-card{
+    width: 400px;
+    height: 400px;
+    background: linear-gradient(
+        248.8deg,
+        rgba(255, 247, 247, 0.6) -13.88%,
+        rgba(255, 247, 247, 0) 97.9%
+      );
+    border: 1px solid rgba(250, 237, 237, 0.6);
+    backdrop-filter: blur(0.5rem);
+    z-index: 3;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.title{
+    width: 100%;
+    height: 20%;
+    /* background-color: green; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 2px solid white;
+}
+
+
+.admin-info{
+    width: 100%;
+    height: 80%;
+    /* background-color: yellow; */
+ 
+}
+
+form{
+    /* background-color: red; */
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+form div{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#Su{
+    width: 50%;
+    margin: auto;
+    border: none;
+    outline: none;
+    height: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    
+    
+   
+}
+
+
+#btns{
+    border: none;
+    outline: none;
+    width: 70%;
+    height: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.2s all ease-out;
+}
+
+
+#btns:hover{
+    background-color: rgb(6, 175, 175);
+    color: white;
+
+}
+
+
+  
+  .eye{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+    /* background-color: red; */
+   width: 100%;
+  }
+  /* #e{
+
+    margin-left: 10px;
+  } */
