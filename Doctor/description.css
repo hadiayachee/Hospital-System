@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    background-color: #abc1d4;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+#home{
+    width: 100%;
+    height: 100vh;
+}
+
+
+.bigsection{
+    width: 100%;
+    height: 88vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.search-card{
+    width: 300px;
+    height: 300px;
+    background: linear-gradient(
+        248.8deg,
+        rgba(255, 247, 247, 0.6) -13.88%,
+        rgba(255, 247, 247, 0) 97.9%
+      );
+    border: 1px solid rgba(250, 237, 237, 0.6);
+    backdrop-filter: blur(0.5rem);
+    z-index: 3;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.search-card form{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.search-card form div{
+    /* background-color: red; */
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+#Su{
+    width: 50%;
+    margin: auto;
+    border: none;
+    outline: none;
+    height: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+
+
+#btns{
+    border: none;
+    outline: none;
+    width: 160%;
+    height: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.2s all ease-out;
+}
+
+#btns:hover{
+    background-color: rgb(6, 175, 175);
+    color: white;
+
+}
+
+#b{
+    background-color:white;
+    width: 90px;
+    outline: none;
+    border: none;
+    font-weight: bold;
+    border-radius: 50px;
+    transition: 0.2s all ease-out;
+
+}
+
+#b:hover{
+    background-color: rgb(63, 195, 195);
+    cursor: pointer;
+    
+
+}
+.treatment{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgb(6, 175, 175);
+    height: 100px;
+
+}
+.box1{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* background-color: red; */
+}
+
+#drop{
+    outline: none;
+    border: none;
+    font-weight: bold;
+    border-radius: 50px;
+    transition: 0.2s all ease-out;
+
+   width: 90px;
+   background-color: white
+}
