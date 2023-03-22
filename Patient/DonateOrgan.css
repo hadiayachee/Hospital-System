@@ -1,0 +1,106 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    background-color: #abc1d4;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+#home{
+    width: 100%;
+    height: 100vh;
+}
+
+.bigsection{
+    height: 88vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.donate-card{
+    width: 30%;
+    height: 95%;
+    background: linear-gradient(
+        248.8deg,
+        rgba(255, 247, 247, 0.6) -13.88%,
+        rgba(255, 247, 247, 0) 97.9%
+      );
+    border: 1px solid rgba(250, 237, 237, 0.6);
+    backdrop-filter: blur(0.5rem);
+    z-index: 3;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.title{
+    height: 10%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 2px solid white;
+}
+
+.do-info{
+    width: 100%;
+    height: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.do-info form{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#Su{
+    width: 90%;
+    margin: auto;
+    border: none;
+    outline: none;
+    height: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+#s{
+    width: 90%;
+    margin: auto;
+    border: none;
+    outline: none;
+    height: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+#btns{
+    border: none;
+    outline: none;
+    width: 160%;
+    height: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.2s all ease-out;
+}
+
+#btns:hover{
+    background-color: rgb(6, 175, 175);
+    color: white;
+
+}
