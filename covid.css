@@ -1,0 +1,205 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    background-color: #d4e1ec;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#CovidHome{
+    width: 100%;
+    height: 100vh;
+    /* background-color: red; */
+}
+
+.covidlive{
+    width: 100%;
+    height: 70%;
+    /* background-color: green; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.covid-box{
+    width: 90%;
+    margin: auto;
+    height: 400px;
+    border: 2px solid rgb(6, 175, 175);
+    display: flex;
+}
+
+.part-one{
+    height: 100%;
+    width: 35%;
+    /* background-color: red; */
+}
+
+.part-title{
+    width: 100%;
+    height: 50%;
+    /* background-color: yellow; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+}
+
+.part-data{
+    width: 100%;
+    height: 50%;
+    /* background-color: aqua; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+}
+
+.part-two{
+    height: 100%;
+    width: 35%;
+    /* background-color: green; */
+}
+
+.part-three{
+    height: 100%;
+    width: 35%;
+    /* background-color: gold; */
+}
+
+
+#searchcovid{
+    width: 100%;
+    height: 100vh;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.search-box{
+    width: 95%;
+    height: 95%;
+    /* background-color: green; */
+}
+
+.search-title{
+    width: 100%;
+    height: 10%;
+    /* background-color: aqua; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.search-cards{
+    width: 100%;
+    height: 90%;
+    /* background-color: blueviolet; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+
+.search-card{
+    width: 300px;
+    border: 2px solid rgb(6, 175, 175);
+    height: 250px;
+    /* background-color: brown; */
+    margin: 10px;
+}
+
+
+.search{
+    width: 40%;
+    height: 50%;
+    margin: auto;
+    outline: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    border: 2px solid rgb(6, 175, 175);
+}
+
+.seti{
+    width: 100%;
+    height: 30%;
+    /* background-color: blue; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+
+}
+
+.sevalue{
+    width: 100%;
+    height: 70%;
+    /* background-color: gold; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+}
+
+.Loca{
+    font-size: 2rem;
+}
+
+
+
+@media screen and (max-width:1041px){
+    .part-title h1{
+        font-size: 2rem;
+    }
+
+    .part-data h2{
+        font-size: 2rem;
+    }
+
+}
+
+
+@media screen and (max-width:450px){
+    .part-title h1{
+        font-size: 2rem;
+    }
+
+    .part-data h2{
+        font-size: 1.5rem;
+    }
+
+    .covid-box{
+        /* background-color: red; */
+        display: flex;
+        flex-direction: column;
+        font-weight: bold;
+    }
+    .part-one{
+        width: 100%;
+        height: 35%;
+        border-bottom: 2px solid rgb(6, 175, 175);
+    }
+    .part-two{
+        width: 100%;
+        height: 35%;
+        border-bottom: 2px solid rgb(6, 175, 175);
+    }
+    .part-three{
+        width: 100%;
+        height: 35%;
+        border-bottom: 2px solid rgb(6, 175, 175);
+    }
+
+    .search{
+        width: 80%;
+        margin: auto;
+    }
+
+}

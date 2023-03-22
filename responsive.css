@@ -1,0 +1,110 @@
+
+
+@media screen and (max-width:1115px){
+    .work-data-cards{
+        width: 300px;
+        height: 250px;
+    }
+    .work-data-two{
+        font-size: 0.8rem;
+    }
+    .alert{
+       top: 300px;
+       width: 300px;
+    }
+    .alert-two{
+        font-size: 0.8rem;
+    }
+}
+
+
+@media screen and (max-width:1110px){
+
+    .servic-card{
+        width: 200px;
+    }
+}
+
+
+@media screen and (max-width:970px){
+    .work-data-cards{
+        margin: 5px;
+        height: 230px;
+    }
+}
+
+@media screen and (max-width:892px){
+
+    .servic-card{
+        width: 170px;
+    }
+    .services-info h1{
+        font-size: 2rem;
+    }
+    .services-info h3{
+        font-size: 1rem;
+    }
+}
+
+@media screen and (max-width:774px){
+
+    .servic-card{
+        width: 140px;
+    }
+    .services-info h1{
+        font-size: 1.4rem;
+    }
+    .services-info h3{
+        font-size: 0.9rem;
+    }
+}
+
+
+@media screen and (max-width:774px){
+
+    .about-info-one{
+        font-size: 1.7rem;
+    }
+}
+
+
+@media screen and (max-width:774px){
+    .services-cards{
+        height: 80vh;
+    }
+    #work-data{
+        margin-top: 100px;
+    }
+    .work-data-section{
+        overflow: auto;
+    }
+
+    .home-back{
+        width: 100%;
+        height: 70%;
+        background-image: url(./home.jpg);
+        background-size: cover;
+    }
+
+    .about-info-one{
+        font-size: 1.1rem;
+    }
+    .about-info-two{
+        font-size: 0.8rem;
+    }
+    .book-card h3{
+        font-size: 1.5rem;
+    }
+    .book-card button{
+        width: 40%;
+    }
+    .book-section{
+        /* background-color: red; */
+        overflow: auto;
+    }
+    .alert{
+        height: 140px;
+        width: 250px;
+        top: 450px;
+    }
+}

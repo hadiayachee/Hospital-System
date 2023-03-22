@@ -1,0 +1,244 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#CovidHome{
+    width: 100%;
+    height: 100vh;
+}
+
+
+
+
+.covid-logo{
+    width: 20%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.covid-lists{
+    width: 80%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    font-weight: bold;
+
+}
+
+.covid-lists ul{
+    list-style: none;
+    display: flex;
+    width: 50%;
+    margin: auto;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.covid-lists ul li{
+    transition: 0.3s all ease-out;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.covid-lists ul li:hover{
+    color: white;
+    cursor: pointer;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+#hos-logo{
+    font-size: 40px;
+}
+
+.covid-header{
+    background-color: #d4e1ec;
+    height: 90%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.covid-intro{
+    width: 95%;
+    margin: auto;
+    height: 95%;
+    /* background-color: red; */
+    display: flex;
+}
+
+.covid-structure{
+    width: 75%;
+    height: 100%;
+    background-color: rgb(6, 175, 175);
+}
+
+.covid-img{
+    width: 25%;
+    height: 100%;
+}
+
+.covid-img img{
+    width: 100%;
+    height: 100%;
+}
+
+.covid-struc-title{
+    height: 20%;
+    width: 100%;
+    font-size: 2rem;
+    background-color: rgb(6, 175, 175);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #d4e1ec;
+}
+
+.covid-struc-title h1{
+    display: flex;
+    align-items: center;
+}
+
+.covid-struc-parg{
+    height: 80%;
+    width: 100%;
+    background-color: rgb(6, 175, 175);
+    /* background-color: red; */
+
+
+}
+
+.covid-struc-parg p{
+    letter-spacing: 1px;
+    font-weight: bold;
+    /* margin-top: 20px; */
+    /* background-color: red; */
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+#Posters{
+    width: 100%;
+    height: 100vh;
+    background-color: #d4e1ec;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.gallery{
+    /* background-color: aqua; */
+    width: 90%;
+    margin: auto;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+
+.cards-one,
+.cards-two,
+.cards-three,
+.cards-four,
+.cards-five,
+.cards-six{
+    width: 30%;
+    height: 40%;
+    margin: 5px;
+    background-color: red;
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+}
+
+.cards-one{
+    background-image: url(photo/depressants-social.2e16d0ba.fill-1200x1200.jpg);
+    background-size: cover;
+}
+
+
+.cards-two{
+    background-image: url(photo/hallucinogens_mushrooms.jpg);
+    background-size: cover;
+}
+.cards-three{
+    background-image: url(photo/image-of-pill-bottle-web.jpg);
+    background-size: cover;
+}
+
+.cards-four{
+    background-image: url(photo/Analgesics.jpg);
+    background-size: cover;
+}
+.cards-five{
+    background-image: url(photo/GettyImages-79167672-40dffb25207540afa0c103ef71e30aa0.jpg);
+    background-size: cover;
+}
+.cards-six{
+    background-image: url(photo/5ffd346ba7dda50001bb9c7b.jpg);
+    background-size: cover;
+}
+.cards-one:hover .overview{
+    transform: translateY(0%);
+}
+.cards-two:hover .overview{
+    transform: translateY(0%);
+}
+.cards-three:hover .overview{
+    transform: translateY(0%);
+}
+.cards-four:hover .overview{
+    transform: translateY(0%);
+}
+.cards-five:hover .overview{
+    transform: translateY(0%);
+}
+.cards-six:hover .overview{
+    transform: translateY(0%);
+}
+
+.overview{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(6, 175, 175);
+    transform: translateY(100%);
+    transition: 0.3s all ease-out;
+}
+
+.overview-title{
+    border-bottom: 1px solid #d4e1ec;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.overview-p{
+    letter-spacing: 1px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.cards img{
+    width: 100%;
+    height: 100%;
+}

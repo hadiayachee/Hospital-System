@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./navbar.css"/>
+    <link rel="stylesheet" href="./style.css"/>
+    <script src="https://code.iconify.design/2/2.2.0/iconify.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link rel="stylesheet" href="./responsive.css"/>
+    <title>Document</title>
+</head>
+<body>
+    <section id="home">
+        <nav>
+            <input type="checkbox" id="check">
+            <label for="check" class="checkbtn">
+                <i class="fa-solid fa-bars"></i>
+            </label>
+            <label class="logo">Desgin</label>
+            <ul>
+                <li><a class="active" href="">Home</a></li>
+                <li><a href="./covid.html">COVID</a></li>
+                <li><a href="presentaionlayer/admin/Admin.php">Admin</a></li>
+                <li><a href="./Doctor/doctorlogin.html">Doctor</a></li>
+                <li><a href="./Patient/PatientLogin.html">Patient</a></li>
+                <li><a href="">Home</a></li>
+            </ul>
+        </nav>
+        <div class="home-back">
+            
+        </div>
+    </section>
+    <section id="Services">
+        <div class="services-cards">
+            <div class="servic-card">
+                <div class="services-logo">
+                    <span class="iconify" id="servi-logo" data-icon="fa-solid:bed"></span>
+                </div>
+                <div class="services-info">
+                    <h1>120+</h1>
+                    <h3>Doctors at works</h3>
+                </div>
+            </div>
+            <div class="servic-card">
+                <div class="services-logo">
+                    <span class="iconify" id="servi-logo" data-icon="wpf:doctors-bag"></span>
+                </div>
+                <div class="services-info">
+                    <h1>120+</h1>
+                    <h3>Doctors at works</h3>
+                </div>
+            </div>
+            <div class="servic-card">
+                <div class="services-logo">
+                    <span class="iconify" id="servi-logo" data-icon="eva:people-fill"></span>
+                </div>
+                <div class="services-info">
+                    <h1>120+</h1>
+                    <h3>Doctors at works</h3>
+                </div>
+            </div>
+            <div class="servic-card">
+                <div class="services-logo">
+                    <span class="iconify" id="servi-logo" data-icon="fontisto:bed-patient"></span>
+                </div>
+                <div class="services-info">
+                    <h1>120+</h1>
+                    <h3>Doctors at works</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="work-data">
+        <div class="work-data-container">
+            <div class="work-data-title">
+                <h3><font style="color: rgb(6, 175, 175);">Our</font> Services</h3>
+            </div>
+            <div class="work-data-section">
+                <div class="work-data-cards">
+                    <div class="work-data-one">
+                        <span class="iconify" id="workdata-logo" data-icon="fontisto:hospital"></span>
+                        <h3>Free Medicne</h3>
+                    </div>
+                    <div class="work-data-two">
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laboriosam, reprehenderit.</p>
+                        <a href="#">Learn More</a>
+                    </div>
+                </div>
+                <div class="work-data-cards">
+                    <div class="work-data-one">
+                        <span class="iconify" id="workdata-logo" data-icon="fontisto:hospital"></span>
+                        <h3>Free Medicne</h3>
+                    </div>
+                    <div class="work-data-two">
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laboriosam, reprehenderit.</p>
+                        <a href="#">Learn More</a>
+                    </div>
+                </div>
+                <div class="work-data-cards">
+                    <div class="work-data-one">
+                        <span class="iconify" id="workdata-logo" data-icon="fontisto:hospital"></span>
+                        <h3>Free Medicne</h3>
+                    </div>
+                    <div class="work-data-two">
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laboriosam, reprehenderit.</p>
+                        <a href="#">Learn More</a>
+                    </div>
+                </div>
+                <div class="work-data-cards">
+                    <div class="work-data-one">
+                        <span class="iconify" id="workdata-logo" data-icon="fontisto:hospital"></span>
+                        <h3>Free Medicne</h3>
+                    </div>
+                    <div class="work-data-two">
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laboriosam, reprehenderit.</p>
+                        <a href="#">Learn More</a>
+                    </div>
+                </div>
+                <div class="work-data-cards">
+                    <div class="work-data-one">
+                        <span class="iconify" id="workdata-logo" data-icon="fontisto:hospital"></span>
+                        <h3>Free Medicne</h3>
+                    </div>
+                    <div class="work-data-two">
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laboriosam, reprehenderit.</p>
+                        <a href="#">Learn More</a>
+                    </div>
+                </div>
+                <div class="work-data-cards">
+                    <div class="work-data-one">
+                        <span class="iconify" id="workdata-logo" data-icon="fontisto:hospital"></span>
+                        <h3>Free Medicne</h3>
+                    </div>
+                    <div class="work-data-two">
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laboriosam, reprehenderit.</p>
+                        <a href="#">Learn More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="About">
+        <div class="about-container">
+            <div class="about-title">
+                <h1><font style="color: rgb(6, 175, 175);">About</font> Us</h1>
+            </div>
+            <div class="about-info">
+                <div class="about-info-one">
+                    <h2>We take care of your health</h2>
+                </div>
+                <div class="about-info-two">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque voluptas numquam non animi quos molestiae dicta cumque accusamus, earum alias. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Mollitia iure natus modi, accusantium fugiat voluptate dolor dignissimos labore deleniti recusandae explicabo! Tempora labore ut qui officia. Quos magnam quaerat eveniet alias. Fuga esse ea necessitatibus. Laborum asperiores inventore dignissimos non, adipisci doloribus dolores,<br> possimus, voluptatibus cupiditate fugiat aliquam! Repellat, sapiente? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusantium, sed voluptate tempore cupiditate dicta, quod voluptates repellendus repudiandae, fugiat minima dolore facilis vero vitae porro neque <br> odio ad labore eligendi temporibus ipsa. Velit repellendus placeat consectetur, dolor fuga saepe perferendis iusto hic voluptas doloremque eaque ad culpa modi, ipsum quibusdam! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sint cum eveniet rem repudiandae <br> numquam dignissimos iste repellendus rerum placeat laboriosam, in temporibus, dolores veritatis porro necessitatibus. Vel nisi unde facere illo nostrum? Voluptate in consequuntur, reprehenderit nostrum minima rerum voluptas ullam iste molestiae ratione illum nobis officia accusantium amet odit! Magni reiciendis necessitatibus mollitia magnam sit saepe quaerat nemo aperiam?</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="Book">
+        <div class="book-container">
+            <div class="book-title">
+                <h1><font style="color: rgb(6, 175, 175);">Plogs</font></h1>
+            </div>
+            <div class="book-section">
+                <div class="book-card">
+                    <div class="book-img">
+                        <img src="./home.jpg">
+                    </div>
+                    <div class="book-info">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo, inventore corporis! Dolorem error doloribus nam iusto quaerat illum maiores nihil repudiandae! Provident eum culpa commodi voluptatum tempora!.</p>
+                    </div>
+                    <div class="book-btn">
+                        <a href="">Learn More</a>
+                    </div>
+                </div>
+                <div class="book-card">
+                    <div class="book-img">
+                        <img src="./home.jpg">
+                    </div>
+                    <div class="book-info">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo, inventore corporis! Dolorem error doloribus nam iusto quaerat illum maiores nihil repudiandae! Provident eum culpa commodi voluptatum tempora!.</p>
+                    </div>
+                    <div class="book-btn">
+                        <a href="">Learn More</a>
+                    </div>
+                </div>
+                <div class="book-card">
+                    <div class="book-img">
+                        <img src="./home.jpg">
+                    </div>
+                    <div class="book-info">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo, inventore corporis! Dolorem error doloribus nam iusto quaerat illum maiores nihil repudiandae! Provident eum culpa commodi voluptatum tempora!.</p>
+                    </div>
+                    <div class="book-btn">
+                        <a href="">Learn More</a>
+                    </div>
+                </div>
+                <div class="book-card">
+                    <div class="book-img">
+                        <img src="./home.jpg">
+                    </div>
+                    <div class="book-info">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo, inventore corporis! Dolorem error doloribus nam iusto quaerat illum maiores nihil repudiandae! Provident eum culpa commodi voluptatum tempora!.</p>
+                    </div>
+                    <div class="book-btn">
+                        <a href="">Learn More</a>
+                    </div>
+                </div>
+                <div class="book-card">
+                    <div class="book-img">
+                        <img src="./home.jpg">
+                    </div>
+                    <div class="book-info">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo, inventore corporis! Dolorem error doloribus nam iusto quaerat illum maiores nihil repudiandae! Provident eum culpa commodi voluptatum tempora!.</p>
+                    </div>
+                    <div class="book-btn">
+                        <a href="">Learn More</a>
+                    </div>
+                </div>
+                <div class="book-card">
+                    <div class="book-img">
+                        <img  src="./home.jpg">
+                    </div>
+                    <div class="book-info">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo, inventore corporis! Dolorem error doloribus nam iusto quaerat illum maiores nihil repudiandae! Provident eum culpa commodi voluptatum tempora!.</p>
+                    </div>
+                    <div class="book-btn">
+                        <a href="">Learn More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- <div class="alert">
+            <div class="alert-one">
+                <h2>Covid</h2>
+                <button id="close"><span class="iconify" id="close-logo" data-icon="akar-icons:circle-x-fill"></span></button>
+            </div>
+            <div class="alert-two">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui praesentium ipsam placeat provident officia sunt consequatur vero eligendi quam culpa?</p>
+            </div>
+        </div> -->
+    </section>
+    <script src="./covidjq.js"></script>
+</body>
+</html>

@@ -1,0 +1,378 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    background-color: #d4e1ec;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#home{
+    width: 100%;
+    height: 100vh; 
+}
+
+
+.home-back{
+    width: 100%;
+    height: 90%;
+    background-image: url(./home.jpg);
+    background-size: cover;
+}
+
+
+#Services{
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.services-cards{
+    width: 95%;
+    height: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.servic-card:hover{
+    background-color: rgb(6, 175, 175);
+}
+
+.servic-card:hover #servi-logo{
+    color: #d4e1ec;
+}
+
+
+.servic-card{
+    height: 250px;
+    width: 250px;
+    border: 3px solid rgb(6, 175, 175);
+    margin: 5px;
+    transition: 0.2s all ease-out;
+}
+
+
+.services-logo{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 4rem;
+}
+
+#servi-logo{
+    color: rgb(6, 175, 175);
+}
+
+.services-info{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    filter: drop-shadow(2px 2px 2px black);
+}
+
+.servic-card h1{
+    font-size: 3rem;
+}
+
+
+#work-data{
+    width: 100%;
+    height: 130vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.work-data-container{
+    width: 95%;
+    height: 95%;
+}
+
+.work-data-title{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+}
+
+.work-data-section{
+    width: 100%;
+    height: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.work-data-cards{
+    width: 350px;
+    height: 300px;
+    border: 3px solid rgb(6, 175, 175);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.work-data-one{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+#workdata-logo{
+    font-size: 3rem;
+    color: rgb(6, 175, 175);
+}
+
+.work-data-two{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-around;
+    font-weight: bold;
+}
+
+.work-data-two a{
+    margin-left: 10px;
+    border: 2px solid rgb(6, 175, 175);
+    padding: 0.7rem;
+    color: black;
+    /* filter: drop-shadow(2px 2px 2px black); */
+    transition: 0.2s all ease-out;
+}
+
+.work-data-two a:hover{
+    color: white;
+}
+
+#About{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.about-container{
+    width: 90%;
+    height: 90%;
+}
+
+.about-title{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+}
+
+.about-info{
+    width: 100%;
+    height: 90%;
+}
+
+.about-info-one{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+    font-weight: bold;
+    color: white;
+    filter: drop-shadow(2px 2px 2px black);
+}
+
+.about-info-two{
+    color: white;
+    filter: drop-shadow(2px 2px 2px black);
+    letter-spacing: 1px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#Book{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.book-container{
+    width: 95%;
+    height: 95%;
+}
+
+.book-title{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+}
+
+.book-section{
+    width: 100%;
+    height: 140%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    /* overflow: auto; */
+    /* background-color: red; */
+}
+
+.book-card{
+    /* background-color: green; */
+    width: 300px;
+    background-color: rgb(6, 175, 175);
+    height: 400px;
+    margin: 10px;
+}
+
+.book-img{
+    width: 100%;
+    height: 50%;
+    overflow: hidden;
+}
+.book-img img{
+    transition: 0.3s all ease-out;
+    transform-origin: right;
+}
+
+
+.book-img img:hover{
+    transform: scale(1.2);
+}
+
+.book-img img{
+    width: 100%;
+    height: 100%;
+}
+
+.book-info{
+    /* background-color: gold; */
+    width: 100%;
+    height: 30%;
+    /* overflow: auto; */
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+
+}
+
+.book-btn{
+    width: 100%;
+    height: 20%;
+    /* background-color: aqua; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.book-btn a{
+    background-color: white;
+    color: black;
+    padding: 0.4rem;
+    font-weight: bold;
+    transition: 0.3s all ease-out;
+}
+
+.book-btn a:hover{
+    background-color: gray;
+    color: white;
+}
+
+.alert{
+    width: 400px;
+    height: 200px;
+    background-color: rgb(6, 175, 175);
+    position: absolute;
+    top: 565px;
+    right:10px;
+}
+
+.alert-one{
+    width: 100%;
+    height: 40%;
+    /* background-color: red; */
+    border-bottom: 2px #d4e1ec solid;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.alert-one h2{
+    margin-left: 10px;
+}
+#close{
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+.alert-two{
+    width: 100%;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 60%;
+    /* background-color: gold; */
+}
+
+.alert-two p{
+    margin-top: 10px;
+}
+
+#close-logo:hover{
+    color: white;
+}
+
+#cal{
+    font-size: 3rem;
+    color: rgb(6, 175, 175);
+}
+#nurse{
+    font-size: 3rem;
+    color: rgb(6, 175, 175);
+}
+#stu{
+    font-size: 3rem;
+    color: rgb(6, 175, 175);
+}
+#med{
+    font-size: 3rem;
+    color: rgb(6, 175, 175);
+}
+#room{
+    font-size: 3rem;
+    color: rgb(6, 175, 175);
+}
